@@ -7,6 +7,20 @@
 7. Vincular repositorio local con el remoto:
 git remote add origin https://github.com/josemendozaloor/gestionsoft.git
 8. Ver status: git status
+9. agregar un archivo al commit: git add inicio2.html
+10. agregar todos los archivos al commit: git add .
+11. Ver status: git status
+12. Establecer configuracion global correo:
+git config --global user.email "jose.mendoza.loor@utelvt.edu.ec"
+13. Establecer configuracion global usuario
+git config --global user.name "josemendozaloor"
+14. agregar un mensaje al commit: git commit -m "agregue el archivo inicio2.html"
+15. Ver status antes de subir: git status
+16. Subir todo a Github: git push
+17. La primera vez sitiar la origin master:
+git push --set-upstream origin master
+18. Revisar los cambios en GitHub
+
 
 crear un nuevo repositorio en la línea de comando
 git init 
