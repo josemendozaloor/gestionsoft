@@ -14,23 +14,32 @@ git remote add origin https://github.com/josemendozaloor/gestionsoft.git
 git config --global user.email "jose.mendoza.loor@utelvt.edu.ec"
 13. Establecer configuracion global usuario
 git config --global user.name "josemendozaloor"
-14. agregar un mensaje al commit: git commit -m "agregue el archivo inicio2.html"
+14. agregar un mensaje al commit: 
+git commit -m "agregue el archivo inicio2.html"
 15. Ver status antes de subir: git status
 16. Subir todo a Github: git push
 17. La primera vez sitiar la origin master:
 git push --set-upstream origin master
-18. Revisar los cambios en GitHub
+18. Revisar los cambios en la pagina de GitHub
+19. Modificar archivos o carpetas del proyecto
+20. Ver status: git status
+21. Agregar todos los archivos cambiados: git add .
+22. Ver status: git status
+23. agregar un mensaje al commit: 
+git commit -m "agregue el archivo pasos.txt"
+24. Subir todo a Github: git push
+25. Revisar los cambios en la pagina de GitHub
 
 
-crear un nuevo repositorio en la línea de comando
+Crear un nuevo repositorio en la línea de comando
 git init 
 git add README.md 
 git commit -m "primer compromiso" 
 git rama -M principal 
-git remoto agregar origen https://github.com/josemendozaloor/gestionsoft.git
 git push - u origen principal
 
-enviar un repositorio existente desde la línea de comando
+
+Enviar un repositorio existente desde la línea de comando
 git remoto agregar origen https://github.com/josemendozaloor/gestionsoft.git
 git rama -M principal 
 git push -u origen principal
