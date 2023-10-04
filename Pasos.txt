@@ -1,0 +1,22 @@
+1. Tener la carpeta local del proyecto
+2. Ingresar a la cuenta de GitHub
+3. Crear un repositorio par el proyecto
+4. Abrir la carpeta local en Visual Code
+5. Abrir una terminal
+6. Inicializar repositorio: git init
+7. Vincular repositorio local con el remoto:
+git remote add origin https://github.com/josemendozaloor/gestionsoft.git
+8. Ver status: git status
+
+crear un nuevo repositorio en la línea de comando
+git init 
+git add README.md 
+git commit -m "primer compromiso" 
+git rama -M principal 
+git remoto agregar origen https://github.com/josemendozaloor/gestionsoft.git
+git push - u origen principal
+
+enviar un repositorio existente desde la línea de comando
+git remoto agregar origen https://github.com/josemendozaloor/gestionsoft.git
+git rama -M principal 
+git push -u origen principal
